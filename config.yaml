@@ -1,0 +1,30 @@
+# Configuration for NISAR Deformation Monitoring System
+
+# Data source configuration
+data_sources:
+  monitoring_regions:
+    - "San Andreas Fault"
+    - "Central Valley CA"
+    - "Los Angeles Basin"
+    - "Cascadia"
+    - "Houston TX"
+  acquisition_mode: "stripmap"
+  polarization: "HH+HV"
+
+# Analysis configuration
+analysis:
+  critical_rate_mm_year: 20  # Critical deformation threshold
+  warning_rate_mm_year: 10   # Warning deformation threshold
+  coherence_threshold: 0.7   # Minimum InSAR coherence
+  baseline_period_days: 180  # Reference period
+
+# Visualization configuration
+visualization:
+  style: "seaborn"
+  dpi: 200
+  colormap_deformation: "RdBu"  # Red-Blue for subsidence-uplift
+
+# Schedule (for reference - actual scheduling done in GitHub Actions)
+schedule:
+  frequency: "daily"
+  time_utc: "11:00"  # 11 AM UTC

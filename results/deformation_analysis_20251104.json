@@ -1,0 +1,55 @@
+{
+  "total_points": 150,
+  "high_quality_points": 106,
+  "mean_displacement": -2.5048440877033666,
+  "mean_velocity": -5.009688175406733,
+  "std_velocity": 6.906934267621353,
+  "max_subsidence": -22.172208974292893,
+  "max_uplift": 9.98311544919407,
+  "velocity_percentiles": {
+    "10th": -15.226566051742385,
+    "25th": -8.86523889620485,
+    "50th": -5.2676663271142825,
+    "75th": 0.3889849703831353,
+    "90th": 3.5707461216698784
+  },
+  "risk_assessment": "HIGH - Critical deformation detected",
+  "critical_points": 4,
+  "warning_points": 19,
+  "active_deformation_zones": [
+    {
+      "name": "Central Valley CA",
+      "mean_velocity": -13.66,
+      "status": "Active"
+    }
+  ],
+  "deformation_by_type": {
+    "mean": {
+      "subsidence": -9.506374001351245,
+      "tectonic": 0.31538433457992787,
+      "volcanic": 1.8227570490675544
+    },
+    "count": {
+      "subsidence": 61,
+      "tectonic": 22,
+      "volcanic": 23
+    }
+  },
+  "spatial_extent": {
+    "lon_range": [
+      -122.46941340395243,
+      -95.0226783198933
+    ],
+    "lat_range": [
+      29.517926568177973,
+      45.844641147800324
+    ],
+    "centroid": [
+      -115.4607036433812,
+      36.695808121569115
+    ]
+  },
+  "summary": "Risk: HIGH, Mean velocity: -5.0 mm/year, 4 critical points",
+  "analysis_date": "2025-11-04 03:08:59",
+  "observation_period_days": 180
+}

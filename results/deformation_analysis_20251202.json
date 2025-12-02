@@ -1,55 +1,55 @@
 {
   "total_points": 150,
-  "high_quality_points": 101,
-  "mean_displacement": -2.2777462511685327,
-  "mean_velocity": -4.555492502337065,
-  "std_velocity": 6.625950051961588,
-  "max_subsidence": -17.553700136600106,
-  "max_uplift": 8.923298051594873,
+  "high_quality_points": 100,
+  "mean_displacement": -2.707636868871524,
+  "mean_velocity": -5.415273737743048,
+  "std_velocity": 7.042031328301372,
+  "max_subsidence": -20.166709792576,
+  "max_uplift": 9.175677609681564,
   "velocity_percentiles": {
-    "10th": -13.34819393596084,
-    "25th": -9.429279971011145,
-    "50th": -4.839562786149132,
-    "75th": 0.9038855550147784,
-    "90th": 3.5847974672575886
+    "10th": -15.053818094384251,
+    "25th": -10.302912411188293,
+    "50th": -5.67502917877121,
+    "75th": 0.8520405412416803,
+    "90th": 3.3258124374337394
   },
-  "risk_assessment": "MODERATE - Significant deformation observed",
-  "critical_points": 0,
-  "warning_points": 24,
+  "risk_assessment": "HIGH - Critical deformation detected",
+  "critical_points": 1,
+  "warning_points": 25,
   "active_deformation_zones": [
     {
       "name": "Central Valley CA",
-      "mean_velocity": -11.5,
+      "mean_velocity": -13.46,
       "status": "Active"
     }
   ],
   "deformation_by_type": {
     "mean": {
-      "subsidence": -8.844475023464062,
-      "tectonic": -0.17203928189144777,
-      "volcanic": 3.913085414390106
+      "subsidence": -9.48810664849643,
+      "tectonic": -0.3384455652090909,
+      "volcanic": 3.989081772401695
     },
     "count": {
-      "subsidence": 60,
-      "tectonic": 22,
-      "volcanic": 19
+      "subsidence": 64,
+      "tectonic": 18,
+      "volcanic": 18
     }
   },
   "spatial_extent": {
     "lon_range": [
-      -122.48364358347096,
-      -95.00799225282935
+      -122.49715347438094,
+      -95.0018534034993
     ],
     "lat_range": [
-      29.50723103546066,
-      45.97407342996688
+      29.548499438484665,
+      45.98077384337813
     ],
     "centroid": [
-      -114.70436170603588,
-      36.35080027376696
+      -114.97672341199818,
+      36.30343925019714
     ]
   },
-  "summary": "Risk: MODERATE, Mean velocity: -4.6 mm/year",
-  "analysis_date": "2025-12-02 08:27:21",
+  "summary": "Risk: HIGH, Mean velocity: -5.4 mm/year, 1 critical points",
+  "analysis_date": "2025-12-02 14:19:59",
   "observation_period_days": 180
 }

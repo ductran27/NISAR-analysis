@@ -1,0 +1,55 @@
+{
+  "total_points": 150,
+  "high_quality_points": 110,
+  "mean_displacement": -2.4232329437912794,
+  "mean_velocity": -4.846465887582559,
+  "std_velocity": 6.874074258450813,
+  "max_subsidence": -19.80040214753038,
+  "max_uplift": 9.48504888265797,
+  "velocity_percentiles": {
+    "10th": -14.293148511756085,
+    "25th": -9.526538409642,
+    "50th": -5.529424938438441,
+    "75th": 0.18710848812893516,
+    "90th": 5.316379047013083
+  },
+  "risk_assessment": "MODERATE - Significant deformation observed",
+  "critical_points": 0,
+  "warning_points": 24,
+  "active_deformation_zones": [
+    {
+      "name": "Houston TX",
+      "mean_velocity": -11.16,
+      "status": "Active"
+    }
+  ],
+  "deformation_by_type": {
+    "mean": {
+      "subsidence": -9.121439417395939,
+      "tectonic": 0.13550562269881233,
+      "volcanic": 2.372362350832479
+    },
+    "count": {
+      "subsidence": 65,
+      "tectonic": 21,
+      "volcanic": 24
+    }
+  },
+  "spatial_extent": {
+    "lon_range": [
+      -122.49378559877546,
+      -95.01609569060771
+    ],
+    "lat_range": [
+      29.587021015342145,
+      45.95983379332778
+    ],
+    "centroid": [
+      -115.98707751331416,
+      36.9235365709308
+    ]
+  },
+  "summary": "Risk: MODERATE, Mean velocity: -4.8 mm/year",
+  "analysis_date": "2026-04-01 04:45:59",
+  "observation_period_days": 180
+}

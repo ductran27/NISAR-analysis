@@ -1,20 +1,20 @@
 {
   "total_points": 150,
-  "high_quality_points": 109,
-  "mean_displacement": -2.8027844573476486,
-  "mean_velocity": -5.605568914695297,
-  "std_velocity": 6.917428022738113,
-  "max_subsidence": -22.51782563146837,
-  "max_uplift": 9.484579376880113,
+  "high_quality_points": 102,
+  "mean_displacement": -2.36337316438234,
+  "mean_velocity": -4.72674632876468,
+  "std_velocity": 6.812189373648899,
+  "max_subsidence": -21.289813610193566,
+  "max_uplift": 10.043396944482478,
   "velocity_percentiles": {
-    "10th": -14.286413079214395,
-    "25th": -10.521272880229807,
-    "50th": -5.842868966935367,
-    "75th": -0.39603405119106094,
-    "90th": 3.7636282611555325
+    "10th": -13.065727332681588,
+    "25th": -10.195982766216785,
+    "50th": -5.113683610323426,
+    "75th": 0.7164881095882216,
+    "90th": 4.420245385510858
   },
   "risk_assessment": "HIGH - Critical deformation detected",
-  "critical_points": 3,
+  "critical_points": 2,
   "warning_points": 25,
   "active_deformation_zones": [
     {
@@ -25,31 +25,31 @@
   ],
   "deformation_by_type": {
     "mean": {
-      "subsidence": -9.842032033353233,
-      "tectonic": -0.13915278853899338,
-      "volcanic": 2.219697283266088
+      "subsidence": -9.447581174897014,
+      "tectonic": -0.036312528801855405,
+      "volcanic": 3.3045832330853706
     },
     "count": {
-      "subsidence": 67,
-      "tectonic": 19,
+      "subsidence": 59,
+      "tectonic": 20,
       "volcanic": 23
     }
   },
   "spatial_extent": {
     "lon_range": [
-      -122.44512651712414,
-      -95.01355124880789
+      -122.47090887468468,
+      -95.05234002465909
     ],
     "lat_range": [
-      29.520463661606982,
-      45.99779486593075
+      29.536410799672133,
+      45.96372915971033
     ],
     "centroid": [
-      -114.9762272863158,
-      36.63192883218887
+      -114.99454136167023,
+      36.70822960150694
     ]
   },
-  "summary": "Risk: HIGH, Mean velocity: -5.6 mm/year, 3 critical points",
-  "analysis_date": "2026-04-21 16:46:13",
+  "summary": "Risk: HIGH, Mean velocity: -4.7 mm/year, 2 critical points",
+  "analysis_date": "2026-04-21 19:57:27",
   "observation_period_days": 180
 }

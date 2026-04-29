@@ -1,60 +1,60 @@
 {
   "total_points": 150,
-  "high_quality_points": 103,
-  "mean_displacement": -2.709521315925375,
-  "mean_velocity": -5.41904263185075,
-  "std_velocity": 6.93856484067655,
-  "max_subsidence": -21.22266212325367,
-  "max_uplift": 9.559720191952815,
+  "high_quality_points": 115,
+  "mean_displacement": -2.7998323311755016,
+  "mean_velocity": -5.599664662351003,
+  "std_velocity": 7.731127864461958,
+  "max_subsidence": -22.7571819456806,
+  "max_uplift": 10.823880042959077,
   "velocity_percentiles": {
-    "10th": -14.87941572606928,
-    "25th": -11.198407705065597,
-    "50th": -5.226349071860568,
-    "75th": -0.24211887914085328,
-    "90th": 3.651925803557885
+    "10th": -16.246084703757557,
+    "25th": -11.033499741371926,
+    "50th": -6.07000002075548,
+    "75th": -0.45154598525966627,
+    "90th": 5.996286441519944
   },
   "risk_assessment": "HIGH - Critical deformation detected",
-  "critical_points": 1,
+  "critical_points": 4,
   "warning_points": 29,
   "active_deformation_zones": [
     {
       "name": "Central Valley CA",
-      "mean_velocity": -11.5,
+      "mean_velocity": -13.99,
       "status": "Active"
     },
     {
       "name": "Houston TX",
-      "mean_velocity": -11.56,
+      "mean_velocity": -10.12,
       "status": "Active"
     }
   ],
   "deformation_by_type": {
     "mean": {
-      "subsidence": -9.755463061754892,
-      "tectonic": -0.015989637252790203,
-      "volcanic": 1.8636813852991299
+      "subsidence": -9.990311502690197,
+      "tectonic": 0.6494698709554699,
+      "volcanic": 4.264909361457312
     },
     "count": {
-      "subsidence": 61,
+      "subsidence": 74,
       "tectonic": 22,
-      "volcanic": 20
+      "volcanic": 19
     }
   },
   "spatial_extent": {
     "lon_range": [
-      -122.4663405819297,
-      -95.02447283489944
+      -122.4093644827346,
+      -95.00861494493049
     ],
     "lat_range": [
-      29.511261437420863,
-      45.95632617552319
+      29.506032128650002,
+      45.98483629836557
     ],
     "centroid": [
-      -115.75107673116354,
-      36.63089568881805
+      -114.58608249820468,
+      36.02476042319251
     ]
   },
-  "summary": "Risk: HIGH, Mean velocity: -5.4 mm/year, 1 critical points",
-  "analysis_date": "2026-04-29 19:16:42",
+  "summary": "Risk: HIGH, Mean velocity: -5.6 mm/year, 4 critical points",
+  "analysis_date": "2026-04-29 22:52:55",
   "observation_period_days": 180
 }

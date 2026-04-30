@@ -1,0 +1,60 @@
+{
+  "total_points": 150,
+  "high_quality_points": 105,
+  "mean_displacement": -2.5941058178602305,
+  "mean_velocity": -5.188211635720461,
+  "std_velocity": 7.209064802315442,
+  "max_subsidence": -19.13573156928473,
+  "max_uplift": 10.385764264434284,
+  "velocity_percentiles": {
+    "10th": -14.938239677245434,
+    "25th": -10.596983805261988,
+    "50th": -5.431466129707138,
+    "75th": -0.0893378589054239,
+    "90th": 4.650894052761434
+  },
+  "risk_assessment": "MODERATE - Significant deformation observed",
+  "critical_points": 0,
+  "warning_points": 32,
+  "active_deformation_zones": [
+    {
+      "name": "Central Valley CA",
+      "mean_velocity": -12.44,
+      "status": "Active"
+    },
+    {
+      "name": "Houston TX",
+      "mean_velocity": -10.15,
+      "status": "Active"
+    }
+  ],
+  "deformation_by_type": {
+    "mean": {
+      "subsidence": -10.041405077882523,
+      "tectonic": -0.7079545894431768,
+      "volcanic": 3.5926319294996607
+    },
+    "count": {
+      "subsidence": 61,
+      "tectonic": 21,
+      "volcanic": 23
+    }
+  },
+  "spatial_extent": {
+    "lon_range": [
+      -122.46618893249267,
+      -95.0069586628041
+    ],
+    "lat_range": [
+      29.526575314475608,
+      45.79518536404371
+    ],
+    "centroid": [
+      -114.94891093770997,
+      36.62484411367123
+    ]
+  },
+  "summary": "Risk: MODERATE, Mean velocity: -5.2 mm/year",
+  "analysis_date": "2026-04-30 05:18:41",
+  "observation_period_days": 180
+}

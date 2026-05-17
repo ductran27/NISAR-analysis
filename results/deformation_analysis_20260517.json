@@ -1,55 +1,55 @@
 {
   "total_points": 150,
-  "high_quality_points": 105,
-  "mean_displacement": -2.7310543277561843,
-  "mean_velocity": -5.462108655512369,
-  "std_velocity": 6.872365455434109,
-  "max_subsidence": -19.4213146565273,
-  "max_uplift": 10.870255580923178,
+  "high_quality_points": 101,
+  "mean_displacement": -2.311325335447718,
+  "mean_velocity": -4.622650670895436,
+  "std_velocity": 6.382996094388092,
+  "max_subsidence": -18.508191539265255,
+  "max_uplift": 8.373449686307955,
   "velocity_percentiles": {
-    "10th": -14.564190356441483,
-    "25th": -10.494719744412722,
-    "50th": -5.767125207746899,
-    "75th": -0.710408478980117,
-    "90th": 4.576211888469626
+    "10th": -12.234204006564411,
+    "25th": -9.33344272412403,
+    "50th": -3.4286597380621213,
+    "75th": 0.566998666114199,
+    "90th": 3.04569319165079
   },
   "risk_assessment": "MODERATE - Significant deformation observed",
   "critical_points": 0,
-  "warning_points": 29,
+  "warning_points": 22,
   "active_deformation_zones": [
     {
       "name": "Central Valley CA",
-      "mean_velocity": -12.2,
+      "mean_velocity": -11.37,
       "status": "Active"
     }
   ],
   "deformation_by_type": {
     "mean": {
-      "subsidence": -9.488589479619185,
-      "tectonic": 0.3607664913330131,
-      "volcanic": 2.786014473084623
+      "subsidence": -8.677053184346443,
+      "tectonic": 0.7917969213511479,
+      "volcanic": 1.2639148981212665
     },
     "count": {
-      "subsidence": 67,
-      "tectonic": 18,
-      "volcanic": 20
+      "subsidence": 59,
+      "tectonic": 17,
+      "volcanic": 25
     }
   },
   "spatial_extent": {
     "lon_range": [
-      -122.49703235280569,
-      -95.00436207341424
+      -122.47036618887198,
+      -95.00166552743042
     ],
     "lat_range": [
-      29.53715982183997,
-      45.96122637298003
+      29.528519639065124,
+      45.92660171101609
     ],
     "centroid": [
-      -114.83849415748932,
-      36.32529663177997
+      -115.68830527379286,
+      37.12974288585273
     ]
   },
-  "summary": "Risk: MODERATE, Mean velocity: -5.5 mm/year",
-  "analysis_date": "2026-05-17 19:01:17",
+  "summary": "Risk: MODERATE, Mean velocity: -4.6 mm/year",
+  "analysis_date": "2026-05-17 22:48:00",
   "observation_period_days": 180
 }

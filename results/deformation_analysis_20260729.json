@@ -1,0 +1,49 @@
+{
+  "total_points": 150,
+  "high_quality_points": 108,
+  "mean_displacement": -2.1609668492477367,
+  "mean_velocity": -4.3219336984954735,
+  "std_velocity": 6.5700835412690415,
+  "max_subsidence": -17.984847776479608,
+  "max_uplift": 9.536422598835308,
+  "velocity_percentiles": {
+    "10th": -11.629241210200208,
+    "25th": -9.044302762064692,
+    "50th": -5.304635391009273,
+    "75th": 1.0821021415264354,
+    "90th": 4.841261413517145
+  },
+  "risk_assessment": "MODERATE - Significant deformation observed",
+  "critical_points": 0,
+  "warning_points": 21,
+  "active_deformation_zones": [],
+  "deformation_by_type": {
+    "mean": {
+      "subsidence": -8.467820665703362,
+      "tectonic": 1.3569806866594913,
+      "volcanic": 3.9647777516089153
+    },
+    "count": {
+      "subsidence": 68,
+      "tectonic": 19,
+      "volcanic": 21
+    }
+  },
+  "spatial_extent": {
+    "lon_range": [
+      -122.47713364834553,
+      -95.03811207562354
+    ],
+    "lat_range": [
+      29.528327296605333,
+      45.98704838537676
+    ],
+    "centroid": [
+      -114.75798849362026,
+      36.30368727184082
+    ]
+  },
+  "summary": "Risk: MODERATE, Mean velocity: -4.3 mm/year",
+  "analysis_date": "2026-07-29 05:17:19",
+  "observation_period_days": 180
+}

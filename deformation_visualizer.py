@@ -133,7 +133,7 @@ class DeformationVisualizer:
         # Box plot by deformation type
         types = df['deformation_type'].unique()
         data_by_type = [df[df['deformation_type'] == t]['velocity_mm_year'] for t in types]
-        ax2.boxplot(data_by_type, labels=types, vert=True)
+        ax2.boxplot(data_by_type, tick_labels=types)
         ax2.set_ylabel('Velocity (mm/year)', fontsize=11)
         ax2.set_title('Deformation by Type', fontsize=12, fontweight='bold')
         ax2.axhline(0, color='gray', linestyle='-', linewidth=1, alpha=0.5)
